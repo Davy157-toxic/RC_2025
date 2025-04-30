@@ -1,0 +1,7 @@
+1) [Tablet]----(bluetooth)----[Impressora]
+2) [1PCs]----|
+   [2PCs]----|--(Switch)----[Edificio escolar]
+   [3PCs]----|
+                  |---[Edificio1]---|
+3) (Cabo Fibra)---| ---[Edificio3]--|
+                  |--- [Edficio2]---|
