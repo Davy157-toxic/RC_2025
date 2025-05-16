@@ -1,4 +1,4 @@
                         Gateway                               Router
-Interliga redes           sim(com protocolos diferentes)        Sim(com o mesmo protocolo)
+Interliga redes           sim(com protocolos diferentes)        Sim(com o mesmo protocolo) correção:com o mesmo ip
 Traduz protocolos         sim                                   Não 
 Encaminha tráfego         sim                                   sim 
