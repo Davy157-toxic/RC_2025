@@ -1,0 +1,35 @@
+A) 1º Camada de acesso a rede: Responsavel pela comunicação fisica usando o cabo é o não utilização de cabo definindo como os dados seram transmitidos na rede fisica 
+   2º Internet: Responsavel pela atribuição de um endereço e roteia pacotes de dados entre diferentes redes, usa o protocolo IP.
+   3º Transporte: Nos fornece uma comunicação confiavel entre ponto de origem e destino, utiliza os protocolos TCP e UDP
+   4º Aplicação: É a camada que interage diretamente com o usuário, fornecendo acesso aos serviços e aplicações de rede, como HTTP, FTP, e-mail, entre outros.
+ 
+B) 1º Protocolos: Ethernet, Wi-Fi, etc. 
+      Unidade de Informação: Quadro (Frame)  
+      
+   2º Protocolos: IP (IPv4, IPv6), ICMP, IPsec 
+      Unidade de Informação: Pacote (IP) 
+      
+   3º Protocolos: TCP, UDP 
+      Unidade de Informação: Segmento (TCP) ou Datagrama (UDP) 
+      
+   4º Protocolos: HTTP, SMTP, FTP, DNS, Telnet, etc. 
+      Unidade de Informação: Mensagem (os dados da aplicação) 
+
+
+
+Camada do modelo               Função na comunicação entre                     Protocolo(s) possível(is)                  unidade de informação
+        TCP/IP                        a Ana e a Maria
+      Aplicação                    Ana usa um programa de                   SMTP(envio),IMAP/POP3/(Recebimento)                    Dados
+                                  e-mail para redigir a mensagem
+                                  a anexar a fotografia
+                                  
+      Transporte                  Divide a mensagem e a foto em partes                   TCP                                      Segmento
+                                  menores (segmentos) e garante que tudo  
+                                  chegue corretamente
+                 
+      Internet                    Define os endereços IP de origem e destino,            IP                                        pacotes                
+                                  e escolhe o caminho que os dados seguirão 
+                                  pela internet
+
+      Acesso á Rede               Envia fisicamente os dados por cabos ou Wi-Fi     Ethernet, Wi-fi                            Quadros(frames),Bits       
+                                  até o destino final
