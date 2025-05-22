@@ -1,0 +1,31 @@
+A) 1º Camada fisica: Define os aspectos físicos da comunicação, como cabos, conectores, sinais elétricos e frequência.
+   2º Camada enlace de dados: Transmite dados entre dois dispositivos físicos conectados na mesma rede, usando protocolos como Ethernet e Wi-Fi.
+   3º Camada de rede: Define a forma como os dados são endereçados e roteados na rede, utilizando protocolos como IP.
+   4º Camada de transaporte: Responsável por garantir a entrega confiável dos dados entre os nós, usando protocolos como TCP e UDP.
+   5º Camada de Sessão: Gerencia as conexões entre os dispositivos, estabelecendo, mantendo e encerrando sessões.
+   6º Camada de Apresentação: Prepara os dados para serem enviados, incluindo criptografia, compressão, tradução de caracteres e outros processos de formatagem. 
+   7º Camada de Aplicação: Interage com as aplicações do usuário, como navegadores web, clientes de e-mail, etc. É o ponto de partida da comunicação para o usuário.
+B) 
+   1) 1º: Lida com a transmissão física dos dados, como cabos, sinais elétricos e ópticos, e converte dados em bits para transmissão. 
+      2º: Transmite dados entre nós adjacentes em uma rede, controlando erros e fluxo, e encapsula dados em quadros. 
+      3º: Responsável pelo roteamento de pacotes entre redes diferentes, fornecendo endereçamento lógico e garantindo que os dados cheguem ao destino correto. 
+      4º: Garante a entrega confiável dos dados entre os pontos finais, controlando fluxo, segmentação e erros, e utiliza protocolos como TCP e UDP. 
+      5º: Estabelece, mantém e finaliza sessões de comunicação, gerenciando a troca de dados entre aplicativos. 
+      6º: Transforma dados entre diferentes formatos e cuida da criptografia, garantindo que os dados sejam compreensíveis pelos aplicativos. 
+      7º: Interface com o usuário final, permitindo o acesso a serviços de rede como e-mail, transferência de arquivos e navegação web. 
+
+   2) 1º Conectores danificado
+      2º Falhas na transmissão de quadros devido a erros de envio.
+      3º Endereços IP incorreto.
+      4º Falhas na sequência de pacotes.
+      5º Problemas com a gestão de sessões.
+      6º Erros de conversão de dados.
+      7º Ataques DDoS.
+
+   3) 1º Testes básicos para verificar a conectividade física, como testar o cabo e o hardware. 
+      2º Verificar a integridade dos pacotes, usar ferramentas de análise de rede para identificar erros de transmissão. 
+      3º Testar a conectividade usando ping e traceroute para identificar problemas de roteamento. Usar netstat para ver as tabelas de roteamento. 
+      4º Verificar se a comunicação TCP/UDP está funcionando corretamente, usar analisadores de protocolo para analisar as cabeças de TCP/UDP. 
+      5º Verificar a configuração e o estado das sessões, usar analisadores de protocolo para ver a troca de informações. 
+      6º Verificar a codificação e o formato dos dados, usar analisadores de protocolo para identificar problemas de codificação. 
+      7º Verificar o funcionamento do protocolo específico da aplicação, usar ferramentas de diagnóstico do cliente e servidor. 
