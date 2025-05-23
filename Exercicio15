@@ -1,0 +1,17 @@
+|  Protocolo         |          Função principal           |        camada do modelo TCP/IP        |       Exemplo de utilização    |
+|-----------------------------------------------------------------------------------------------------------------------------------|
+|  HTTPS             |     Comunicação segura via          |                Aplicação              |      Acesso  seguro a sites    |                   
+|                    |    web (criptografada)              |                                       |      (ex: https://google.com   |                       
+|-----------------------------------------------------------------------------------------------------------------------------------|
+|  TCP               |     Transporte confiável de         |                Transporte             |     Transfêrencias de arquivos |                           
+|                    |     dados (com verificação)         |                                       |      com confiabilidade        |                   
+|-----------------------------------------------------------------------------------------------------------------------------------|
+|  DNS               |     Tradução de nomes de dominio    |                Aplicação              |     Acesso a sites digitando   |                         
+|                    |     em endereço IP                  |                                       |     nomes(ex: www.uol.com.br   |                        
+|-----------------------------------------------------------------------------------------------------------------------------------|
+|  ICMP              |     Diagnóstico de rede e           |                 Internet              |     Comando ping para testar   |                        
+|                    |     envio de mensagem de erro       |                                       |     conectividade              |             
+|-----------------------------------------------------------------------------------------------------------------------------------|
+|  FTP               |     Transferência de arquivos       |                 Aplicação             |     Enviar/baixar arquivos de  |                         
+|                    |      entre computadores             |                                       |     um servidor FTP            |               
+|-----------------------------------------------------------------------------------------------------------------------------------|
