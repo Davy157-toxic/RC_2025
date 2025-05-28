@@ -1,0 +1,10 @@
+|----Endereços IPv4---|----------------------Classe-----------------------|
+|      10.5.23.1      |  Se o primeiro octeto for entre 1 e 127 Classe A  |
+|       1.2.3.4       |  Se o primeiro octeto for entre 1 e 127 Classe A  |       
+|   150.100.50.25     | Se o primeiro octeto for entre 128 e 191 Classe B |    
+|     127.0.0.1       |                   LoopBack                        |     
+|    250.10.5.5       | Se o primeiro octeto for entre 240 e 255 Classe E |    
+|    234.0.0.1        | Se o primeiro octeto for entre 224 e 239 Classe D |      
+|   192.168.0.1       | Se o primeiro octeto for entre 192 e 223 Classe C |
+|  172.16.8.100       | Se o primeiro octeto for entre 128 e 191 Classe B |
+|---------------------|---------------------------------------------------|
